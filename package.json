@@ -1,0 +1,27 @@
+{
+  "name": "matrix-crypto-guard-bot",
+  "version": "1.0.0",
+  "description": "MIT TypeScript Matrix bot validating 46-chain crypto addresses, missing destination memos, and address-poisoning spoofs.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "matrix",
+    "matrix-bot",
+    "crypto",
+    "address-validator",
+    "security",
+    "allswap"
+  ],
+  "author": "AllSwap Protocol Core Team",
+  "license": "MIT",
+  "dependencies": {
+    "matrix-bot-sdk": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}
